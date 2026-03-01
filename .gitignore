@@ -1,0 +1,34 @@
+# Rust 빌드 결과물
+/target/
+
+# Cargo 잠금 파일 (라이브러리는 제외, 바이너리는 포함)
+# binary이므로 Cargo.lock 포함
+
+# 개발 환경 설정
+.env
+.env.local
+
+# IDE 설정
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# 테스트 결과
+/test-output/
+
+# 임시 파일
+*.tmp
+*.bak
+
+# OMC 상태 파일 (세션별 임시 데이터)
+.omc/
+
+# Wrangler 로컬 캐시 (계정 정보 등 민감 데이터 포함)
+.wrangler/
+
+# Cargo.lock은 바이너리이므로 포함 (라이브러리는 제외)
