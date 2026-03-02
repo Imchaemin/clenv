@@ -1,6 +1,7 @@
 [package]
 name = "clenv"
-version = "0.1.0"
+version = "0.1.2"
+publish = false
 edition = "2021"
 description = "Claude Code profile manager - multi-profile switching with git-based version control"
 license = "MIT"
